@@ -1,6 +1,6 @@
-#This is my **first ever real-life project**
+# This is my **first ever real-life project**
 
-##This is the website for my mother's hotel
+## This is the website for my mother's hotel
 
 - Implemented skills
   - HTML5
@@ -9,7 +9,7 @@
   - Hover effects
   - Flexbox
 
-###Features I **have to add**
+### Features I **have to add**
 
 - Content
 - Real pictures
