@@ -289,3 +289,23 @@ img {
   margin: 0px;
   padding: 0px;
 }
+
+/*Contact page*/
+.location-map {
+  background-color: #424242;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-description {
+  color: white;
+  background-color: #6e6e6e;
+  margin: 50px;
+}
+
+#mapid {
+  height: 50vh;
+  width: 50%;
+  margin: 50px;
+}
