@@ -266,6 +266,25 @@ img {
   background-color: #6e6e6e;
 }
 
+.local-map {
+  background-color: #424242;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.local-description {
+  color: white;
+  background-color: #6e6e6e;
+  margin: 50px;
+}
+
+#local-mapid {
+  height: 50vh;
+  width: 50vw;
+  margin: 50px;
+}
+
 /*Flat*/
 
 .flat_mid {

@@ -4,6 +4,8 @@
     <meta charset="utf-8"/>
     <title>Umgebung</title>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
   </head>
   <body>
     <div class="container">
@@ -140,6 +142,19 @@
             </div>
             <img src="images/local4.jpeg" alt="local4">
           </div>
+          <div class="local-map">
+            <div class="local-description">
+              <h1>Sehenswürdigkeiten</h1>
+              <p>Burg Hohenneuffen</p>
+              <p>OutletCity Metzingen</p>
+              <p>Stuttgart Karstadt</p>
+              <p>Therme Beuren</p>
+              <p>Schloss Tübingen</p>
+            </div>
+            <div id="local-mapid">
+                
+            </div>
+          </div>
         </div>
         <div class="bottom">
           <div class="impressum">
@@ -158,5 +173,6 @@
           </div>
         </div>
     </div>
+    <script src="localmap.js"></script>
   </body>
 </html>
