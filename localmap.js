@@ -1,6 +1,6 @@
 const local_map = L.map("local-mapid").setView(
   [48.59324745924871, 9.366315454244612],
-  12
+  11
 );
 
 L.tileLayer(
@@ -22,3 +22,13 @@ const castleMarker = L.marker([48.555556019068845, 9.392406977713108]).addTo(
   local_map
 );
 castleMarker.bindPopup("Burg Hohenneuffen");
+
+const outletmarker = L.marker([48.53464000526675, 9.279249608516693]).addTo(
+  local_map
+);
+outletmarker.bindPopup("Outletcity<br/>Metzingen");
+
+const thermeMarker = L.marker([48.56576495063634, 9.39864546060562]).addTo(
+  local_map
+);
+thermeMarker.bindPopup("Panoramatherme<br/>Beuren");

@@ -48,20 +48,90 @@
                 <img src="images/pic_1.jpeg">
               </figure>
             </div>
-            
+            <div class="top_text">
+              <div class="top_title">
+                Interesse?
+              </div>
+              <div class="top_subtitle">
+                Buchen Sie Ihren Aufenthalt hier
+              </div>
+            </div>
         </div>
         <div class="location-map">
           <div class="location-description">
             <h1>Wir sind hier!</h1>
-            <p>Text description akdkadkaöldfjaölej</p>
+            <p>Text description</p>
           </div>
           <div id="mapid">
               
+          </div>
+        </div>
+        <div class="calendar">
+          <div class="wrapper">
+            <div class="container-calendar">
+                <h3 id="monthAndYear"></h3>
+                <div class="button-container-calendar">
+                    <button id="previous" onclick="previous()">&#8249;</button>
+                    <button id="next" onclick="next()">&#8250;</button>
+                </div>
+                
+                <table class="table-calendar" id="calendar" data-lang="en">
+                    <thead id="thead-month"></thead>
+                    <tbody id="calendar-body"></tbody>
+                </table>
+                
+                
+            </div>
+          </div>
+        </div>
+        <div class="form-wrapper">
+          <div class="form">
+            Buchen Sie ganz einfach Ihren Aufenthalt bei uns:
+            <form method="POST" action="https://mailthis.to/jf3inia3i9101">
+              <div class="form-name">
+                <input type="text" name="Vorname" placeholder="Vorname">
+                <input type="text" name="Nachname" placeholder="Nachname" required>
+              </div>
+              <div class="form-email">
+                <input type="email" name="E-Mail" placeholder="E-Mail" required>
+              </div>
+              <div class="form-phone">
+                <input type="tel" name="Telefonnummer" placeholder="Telefonnummer">
+              </div>
+              <div class="form-people">
+                Erwachsene: <input type="number" name="Erwachsene: " placeholder="1" min="0" max="2" required>
+                Kinder: <input type="number" name="Kinder: " placeholder="0" min="0" max="2">
+              </div>
+              <div class="form-time">
+                <input name="Von: " type="date" required>
+                <input name="Bis: " type="date" required>
+              </div>
+              <div class="form-finish">
+                <button type="submit">Absenden</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="impressum">
+            <p>
+              Claus Gneiting, Julia Logoshenko <br/>
+              Sulzweg 3 </br>
+              72636 Frickenhausen
+            </p>
+            <p>
+              Kontakt: <br/>
+              Telefon:  07022 241625 <br/>
+              E-Mail: info@ferienwohnung.com
+          </div>
+          <div class="creator">
+            Designed and made by Kim Logoshenko, 2020
           </div>
         </div>
     </div>
     
 
     <script src="map.js"></script>
+    <script src="Calendar-master/calendar.js"></script>
   </body>
 </html>

@@ -313,6 +313,7 @@ img {
 .location-map {
   background-color: #424242;
   margin: auto;
+  padding: 5%;
   display: flex;
   justify-content: space-between;
 }
@@ -320,11 +321,113 @@ img {
 .location-description {
   color: white;
   background-color: #6e6e6e;
-  margin: 50px;
+  width: 50%;
+  height: 50vh;
 }
 
 #mapid {
   height: 50vh;
   width: 50%;
-  margin: 50px;
+}
+
+.form-wrapper {
+  margin: 0;
+  padding: 0;
+  background-color: #424242;
+  width: 100%;
+}
+
+.form {
+  color: #cecef6;
+  background-color: #6e6e6e;
+  width: 90%;
+  margin: auto;
+}
+
+.form-finish button {
+  background-color: #cecef6;
+  color: #424242;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 10vw;
+  height: 30px;
+}
+
+/*Calendar*/
+.calendar {
+  background-color: #424242;
+  padding-bottom: 50px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 90%;
+  color: #cecef6;
+}
+
+.container-calendar {
+  background: #6e6e6e;
+  padding: 15px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.button-container-calendar button {
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  background: #cecef6;
+  color: #000000;
+  border: 1px solid #cecef6;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.table-calendar {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-calendar td,
+.table-calendar th {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  vertical-align: top;
+}
+
+.date-picker.selected {
+  font-weight: bold;
+  background-color: rgba(189, 189, 252, 0.5);
+  color: white;
+}
+
+.date-picker.selected span {
+  border-bottom: 2px solid currentColor;
+}
+
+#monthAndYear {
+  text-align: center;
+  margin-top: 0;
+}
+
+.button-container-calendar {
+  position: relative;
+  margin-bottom: 1em;
+  overflow: hidden;
+  clear: both;
+}
+
+#previous {
+  float: left;
+}
+
+#next {
+  float: right;
+}
+
+.booked {
+  background-color: rgba(143, 0, 0, 0.5);
+  color: white;
 }
