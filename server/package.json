@@ -1,0 +1,16 @@
+{
+  "name": "burgblick",
+  "version": "1.0.0",
+  "description": "online booking platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Kim Logoshenko",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
