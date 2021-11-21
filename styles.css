@@ -23,30 +23,31 @@ body {
 }
 
 .nav_link {
-  height: 22px;
+  height: 30px;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
 }
 
 .home {
-  height: 22px;
   border-bottom: 1px solid white;
 }
 
 .home a {
   text-decoration: none;
+  font-size: 24px;
   color: white !important;
 }
 
 .name {
   color: #cecef6;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .nav_link a {
   color: #cecef6;
   text-decoration: none;
   transition: color 0.5s;
+  font-size: 24px;
 }
 
 .nav_link:hover {
@@ -75,12 +76,9 @@ body {
 }
 
 .slider figure img {
-  height: 100%;
   width: 20%;
   float: left;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: no-repeat center/cover;
 }
 
 @keyframes slider {
@@ -116,12 +114,11 @@ body {
 .top_text {
   position: absolute;
   top: 150px;
-  color: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 15%;
+  height: 80vh;
+  width: 60vw;
+  margin: 0 auto;
+  padding: 20px 50px 30px 50px;
+  color: black;
   left: 0%;
   right: 0%;
   transition: 0.5s;
@@ -138,19 +135,8 @@ body {
   margin-top: 20px;
 }
 
-.top:hover .top_text {
-  font-weight: 500;
-  color: #cecef6;
-  transition: 0.5s;
-}
-
 img {
   transition: 1s;
-}
-
-.top:hover img {
-  transition: 1s;
-  filter: brightness(40%);
 }
 
 /*Mid of the homepage*/
